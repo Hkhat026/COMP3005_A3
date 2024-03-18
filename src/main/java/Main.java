@@ -6,8 +6,9 @@ public class Main {
     public static void main(String[] args) {
         // Setting up connection and login credentials
         String url = "jdbc:postgresql://localhost:5432/comp3005_a3";
+        //These are the default user/password, set them to your credentials
         String user = "postgres";
-        String password = "Hk@7889348303";
+        String password = "admin";
 
         try {
             connection = DriverManager.getConnection(url, user, password);
